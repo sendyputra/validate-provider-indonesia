@@ -1,10 +1,10 @@
 {
-  "name": "no-telp-indonesia",
+  "name": "validate-provider-indonesia",
   "version": "1.0.0",
-  "description": "No Telpon Indonesia",
-  "main": "dist/no-telp-indonesia.cjs.js",
-  "module": "dist/no-telp-indonesia.esm.js",
-  "browser": "dist/no-telp-indonesia.umd.js",
+  "description": "Validate Mobile Phone Number in Indonesia",
+  "main": "dist/validate-provider-indonesia.cjs.js",
+  "module": "dist/validate-provider-indonesia.esm.js",
+  "browser": "dist/validate-provider-indonesia.umd.js",
   "files": [
     "dist"
   ],
@@ -17,8 +17,16 @@
     "lint": "eslint --fix main.js",
     "format": "prettier -w src"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sendyputra/validate-provider-indonesia.git"
+  },
+  "keywords": ["no telp","indonesia", "provider indonesia","no hp"],
+  "author": "sendypw",
+  "bugs": {
+    "url": "https://github.com/sendyputra/validate-provider-indonesia/issues"
+  },
+  "homepage": "https://github.com/sendyputra/validate-provider-indonesia",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
