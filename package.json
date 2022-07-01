@@ -1,6 +1,6 @@
 {
   "name": "validate-provider-indonesia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate Mobile Phone Number in Indonesia",
   "main": "dist/validate-provider-indonesia.cjs.js",
   "module": "dist/validate-provider-indonesia.esm.js",
