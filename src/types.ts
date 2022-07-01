@@ -1,26 +1,26 @@
-export type iGetOperator = (no: String, validate: Boolean) => void
+export type iGetOperator = (no: string, validate: boolean) => iResults;
 
 export type iResults = {
-  valid: Boolean
-  message: String
-  operator: String
-  card: String
-}
+  valid: boolean;
+  message: string;
+  operator: string;
+  card: string;
+};
 
 export type iValidationMessage = {
-  VALID :String
-  INVALID :String
-  BELOW_MIN :String
-  ABOVE_MAX :String
-  NOT_FOUND :String
-}
+  VALID: string;
+  INVALID: string;
+  BELOW_MIN: string;
+  ABOVE_MAX: string;
+  NOT_FOUND: string;
+};
 
 export type iOperators = {
-  name: String
-  operator: String
-  code: Number[]
+  name: string;
+  operator: string;
+  code: number[];
   validationConfig: {
-    maxLength: Number
-    minLength: Number
-  }
-}
+    maxLength: number;
+    minLength: number;
+  };
+};
