@@ -5,6 +5,7 @@
   "main": "dist/validate-provider-indonesia.cjs.js",
   "module": "dist/validate-provider-indonesia.esm.js",
   "browser": "dist/validate-provider-indonesia.umd.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
